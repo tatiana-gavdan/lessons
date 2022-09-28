@@ -1,0 +1,48 @@
+body {
+
+}
+a {
+   color: rgb(115, 119, 115);
+}
+div {
+   color:brown;
+}
+h3 {
+   color: #000; 
+}
+.main-text {
+   color:blue;
+}
+.main-text.color {
+   color:rgb(86, 86, 95);
+}
+#green,
+#green_2 {
+   color: green;
+}
+div.footer-content {
+   color:rgb(62, 185, 216);
+}
+
+.text-greenyellow,
+.greenyellow {
+   color: greenyellow
+}
+.text p {
+   color:rgb(124, 68, 175);
+}
+.text-text .red {
+color: red;
+}
+.header-content * {
+   color:rgb(226, 111, 211);
+}
+.text ~ p{
+   color:black;
+}
+.text > p {
+   color:rgb(171, 199, 29);
+}
+.text + p {
+   color:rgb(253, 174, 2);
+}
