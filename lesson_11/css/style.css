@@ -1,0 +1,154 @@
+body {
+   line-height: 1.5;
+}
+[class*="__container"]{
+}
+.main__wrap {
+   background: rgb(132, 169, 238);
+   position: relative;
+   min-height: 100%;
+   overflow: hidden;
+}
+.wrap__background {
+   position: absolute;
+   top: 78px;
+   left: 0px;
+}
+.main__container{
+   height: 1368px;
+}
+.main__wrap img {
+   max-width: 100%;
+}
+.wrap__sun {
+   position: relative;
+   top: -91px;
+   left: 370px;
+   animation-name: sun;
+   animation-duration: 1s;
+   animation-timing-function: ease;
+   animation-iteration-count: infinite;
+   animation-delay: 0s;
+   animation-direction: alternate;
+}
+@keyframes sun {
+   0% {
+      transform:  translate(0,0);
+   }
+   100% {
+      transform: translate(50px, 50px);
+   }
+}
+.wrap__bird {
+   position: absolute;
+   top: 201px;
+   left: 49px;
+   max-height: 172px;
+}
+.wrap__bird--hover {
+   position: absolute;
+   top: 188px;
+   left: 1066px;
+   max-height: 190px;
+}
+.wrap__grass {
+   position: absolute;
+   top: 493px;
+   left: 13px;
+   width: 498px;
+}
+.wrap__bird--hover {
+   margin-left: -5px;
+   animation-name: wrap__bird;
+   animation-duration: 4s;
+   animation-timing-function: ease;
+   animation-fill-mode: forwards;
+   animation-delay: 4.2s;
+}
+@keyframes wrap__bird {
+   0% {
+      transform:  translate(0,0);
+   }
+   100% {
+      transform: translate(-650%, 0);
+   }
+}
+.box__tractor{
+   position: absolute;
+   top: 335px;
+   left: -3px;
+   width: 651px;
+}
+.box__homer {
+   position: absolute;
+   top: 471px;
+   left: 246px;
+   width: 108px;
+}
+.wrap__box:hover {
+   margin-left: 60px;
+   transform: translateX(530px);
+   transition: 8s ease-in;
+} 
+.wrap__box {
+   position: relative;
+   top: -417px;
+   z-index: 2;
+   animation-name: wrap__box;
+   animation-duration: 2s;
+   animation-timing-function: linear;
+   animation-fill-mode: forwards;
+   animation-delay: 5s;
+}
+@keyframes wrap__box {
+   0% {
+      transform:  translate(0, 0);
+   }
+   100% {
+      transform: translate(480px, 0);
+   }
+}
+.wrap__fish {
+   position: absolute;
+   top: 982px;
+   left: 283px;
+   width: 177px;
+   opacity: 0.6;
+   animation-name: fish;
+   animation-duration: 5s;
+   animation-timing-function: ease;
+   animation-iteration-count: infinite;
+   animation-delay: 3s;
+   animation-direction: alternate;
+}
+@keyframes fish {
+   0% {
+      transform:  translate(0,0);
+   }
+   100% {
+      transform: translate(80px, 100px);
+   }
+}
+.wrap__duck {
+   position: absolute;
+   top: 868px;
+   left: 760px;
+   width: 168px;
+   z-index: 5;
+   animation-name: duck;
+   animation-duration: 1s;
+   animation-timing-function: ease;
+   animation-iteration-count: infinite;
+   animation-delay: 3s;
+   animation-direction: alternate;
+}
+@keyframes duck {
+   0% {
+      transform:  translate(0,0);
+   }
+   100% {
+      transform: translate(0, 10px);
+   }
+}
+
+
