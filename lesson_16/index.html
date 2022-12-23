@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Lesson_16</title>
+</head>
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__container">
+            <div class="header__wrapper">
+               <h1 class="header__title title">
+                  Header
+               </h1>
+            </div>
+         </div>
+      </header>
+      <main class="main">
+         <div class="main__container">
+            <div class="main__body body-main">
+               <div class="body-main__box-1 box-1-body">
+                  <img src="img/illustration.svg" alt="illustration">
+               </div>
+               <div class="body-main__box-2 box-2-body">
+                  <div class="box-2-body__titles titles-box-2">
+                     <span class="titles-box-2__subtitle">
+                        Any questions?
+                     </span>
+                     <h2 class="titles-box-2__title">
+                        Drop us a line
+                     </h2>
+                  </div>
+                  <form action="https://jsonplaceholder.typicode.com/posts" method="POST" class="form">
+                     <div class="box-2-body__forms forms-body">
+                        <div class="forms-body__wrapper">
+                           <div class="forms-body__first-name forms">
+                              <label for="first-name" class="form__label">First Name*</label>
+                              <input id="first-name" type="text" name="name" placeholder="Your first name" class="form__input" required>
+                           </div>
+                           <div class="forms-body__last-name forms">
+                              <label for="last-name" class="form__label">First Name*</label>
+                              <input id="last-name" type="text" name="name" placeholder="Your last name" class="form__input" required>
+                           </div>
+                           <div class="forms-body__email forms">
+                              <label for="email" class="form__label">Email*</label>
+                              <input id="email" name="mail" type="email" placeholder="Your working emaile" class="form__input" required>
+                           </div>
+                           <div class="forms-body__phone forms">
+                              <label for="phone" class="form__label">Phone</label>
+                              <input id="phone" class="form__input"  placeholder="Your phone number" name="phone" type="tel" required>
+                           </div>
+                        </div>
+                        <div class="forms-body__textarea">
+                           <label for="message" class="form__label label-massage">Message*</label>
+                           <textarea id="message" autocomplete="off" name="message" class="form__area" placeholder="Your message"></textarea>
+                        </div>
+                        <div class="forms-body__radio radio">
+                           <div class="radio__form">
+                              <input checked class="radio__input" id="radio-1" value="yes" name="feedback" type="radio">
+                              <label class="radio__label" for="radio-1">Receive feedback </label>
+                           </div>
+                           <div class="radio__form">
+                              <input class="radio__input" id="radio-2" name="feedback" value="not" type="radio">
+                              <label class="radio__label" for="radio-2">Do not receive feedback </label>
+                           </div>
+                        </div>  
+                        <div class="forms-body__item item-forms">
+                           <div class="item-forms__checkbox checkbox">
+                              <input id="checkbox" type="checkbox" value="yes" name="communications" class="checkbox__input">
+                              <label for="checkbox" class="checkbox__label">
+                                 <span class="checkbox__text">
+                                    I agree to receive communications from Createx Online School
+                                 </span>
+                              </label>
+                           </div>
+                           <div class="item-forms forms-button">
+                              <button type="submit" class="forms-button__button button"><span>Send message</span></button>
+                           </div>
+                        </div>   
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer">
+         <div class="footer__container">
+            <div class="footer__container">
+               <div class="footer__wrapper">
+                  <h3 class="footer__title title">
+                     Footer
+                  </h3>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </div>
+</body>
+</html>
